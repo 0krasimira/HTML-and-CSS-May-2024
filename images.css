@@ -1,0 +1,10 @@
+/* images.css */
+.fit-picture {
+    width: 50%; /* Set the width to 50% */
+    height: auto;
+    display: block;
+    max-width: 100%;
+    border: 2px solid #333;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
