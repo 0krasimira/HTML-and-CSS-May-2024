@@ -1,0 +1,36 @@
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: aquamarine;
+}
+
+p {
+    color: palevioletred;
+}
+
+.highlight {
+    background-color: lime;
+}
+
+#main-title {
+    color: blueviolet;
+}
+
+#special-paragraph {
+    font-style: italic;
+    background-color: brown;
+}
+
+ul {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+li {
+    color: rgb(0, 157, 248);
+}
+
+div{
+    background-color: rgb(144, 184, 184);
+}
