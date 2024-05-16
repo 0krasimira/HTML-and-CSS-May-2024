@@ -1,0 +1,26 @@
+ul.menu{
+    color: blueviolet;
+    font-size: 40px;
+}
+
+header#header {
+    background-color: brown;
+    padding-top: 30px;
+}
+
+.input-field[type="text"] {
+    background-color: greenyellow;
+}
+
+.button[type="button"] {
+    background-color: aquamarine;
+}
+
+.box {
+    font-weight: bold;
+    background-color: rgb(65, 142, 142);
+}
+
+.font-family {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
