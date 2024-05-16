@@ -14,7 +14,8 @@ h3 ~ p.first-p {
     background-color: aqua;
 }
 
-.li + .li > a[href="#1"] {
+/* Style for the specific <a> element */
+.ul-about .li + .li > a[href="#1"] {
     color: red;
     font-weight: bold;
 }
