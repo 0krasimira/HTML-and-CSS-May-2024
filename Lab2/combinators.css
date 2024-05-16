@@ -1,0 +1,26 @@
+
+/* Descendant For example, div span will match all <span> elements that are inside a <div> element. Might be grandchildren :D */
+div p {
+    background-color: orange;  
+} 
+
+/* Descendant */
+div ul li {
+    background-color: blueviolet;
+}
+
+
+/* The child combinator is more specific than the descendant combinator. Only catches direct children Used with > */
+ul > li {
+    background-color: blue;
+    color: wheat;
+}
+
+p + p {
+    background-color: rgb(103, 169, 23);
+}
+
+span ~ p {
+    font-weight: 700;
+    background-color: rgb(255, 0, 119);
+}
