@@ -1,0 +1,44 @@
+/* descendant */
+nav a {
+    background-color: blueviolet;
+}
+
+/* child */
+div > #about {
+    background-color: brown;
+}
+
+/* adjacent siblings  */
+section + [type="header"] {
+    background-color: rgb(230, 0, 255);
+}
+
+section.about + article {
+    background-color: greenyellow;
+}
+
+form.form[action="post"] {
+    background-color: rgb(226, 43, 165);
+}
+
+.to-color p:last-child {
+    color: rgb(226, 43, 165);
+}
+
+.last-article h3:first-child{
+    color: rgb(237, 99, 177);
+}
+
+.last-article p:nth-of-type(2) {
+    background-color: rgb(254, 248, 163);
+}
+
+.decorated::before {
+content: "pseudo";
+background-color: blueviolet;
+}
+
+.decorated::after {
+    content: "pseudo";
+    background-color: rgb(98, 88, 106);
+    }
