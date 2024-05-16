@@ -1,0 +1,20 @@
+section p {
+    background-color: blue;
+}
+
+.ul-about > li {
+    background-color: palevioletred;
+}
+
+article + article {
+    background-color: green;
+}
+
+h3 ~ p.first-p {
+    background-color: aqua;
+}
+
+.li + .li > a[href="#1"] {
+    color: red;
+    font-weight: bold;
+}
